@@ -1,0 +1,39 @@
+{
+  "name": "tranportation-api",
+  "version": "1.0.0",
+  "description": "transportation api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnusacad/transportationapi.git"
+  },
+  "keywords": [
+    "transportation",
+    "api"
+  ],
+  "author": "Abdiqayum Sa'ad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibnusacad/transportationapi/issues"
+  },
+  "homepage": "https://github.com/ibnusacad/transportationapi#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.28",
+    "mongoose-dateonly": "^1.0.6",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
